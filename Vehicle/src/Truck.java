@@ -1,14 +1,14 @@
 
 public class Truck extends Vehicles {
-  private double Steer;
+  private String Steer;
 
   public Truck() {}
 
-  public void Truck(double steer) {
+  public void Truck(String steer) {
     this.Steer = steer;
   }
 
-  public Truck(double steer, String drive, boolean filled) {
+  public Truck(String steer, String drive, boolean filled) {
     this.Steer = steer;
     setDrive(drive);
 
@@ -19,12 +19,12 @@ public class Truck extends Vehicles {
 
   }
 
-  public double getSteer() {
+  public String getSteer() {
     return Steer;
 
   }
 
-  public void setSteer(double steer) {
+  public void setSteer(String steer) {
     this.Steer = steer;
   }
 

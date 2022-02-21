@@ -2,8 +2,8 @@
 public class Vehicles {
 
   String drive = "yes";
-  int s = 0;
-  int steer = s;
+  String s = new String();
+  String steer = s;
   boolean filled;
   java.util.Date dateCreated;
 
@@ -23,6 +23,14 @@ public class Vehicles {
 
   public void setDrive(String drive) {
     this.drive = drive;
+  }
+
+  public String getSteer() {
+    return steer;
+  }
+
+  public void setSteer(String steer) {
+    this.steer = steer;
   }
 
   public boolean isFilled() {
